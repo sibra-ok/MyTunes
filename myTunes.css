@@ -1,0 +1,30 @@
+.left{display: flex;flex-direction: column;background-color: black;}
+.flex{display: flex;text-align: center;flex-direction: row;margin: 10px;}
+label{color: white;padding: 10px;margin: 10px;}
+
+input{background-color: black;border-color: white;margin-left: 17px;width:400px;color: #aaa;}
+.sign{ margin: 12px; background-color: rgb(209, 80, 0);color: white;margin-right: 90px;margin-left: 20px;}
+.span1{margin-left: auto;margin-right: auto;}
+.black{color: white;text-decoration: none;text-align: center;}
+.horz{color:white;border: none;background: #aaa;height: 0.10px;flex: auto;margin-left: 3px;margin-right: 10px;}
+.acc{border:1px solid white;margin-left: auto;margin-right: auto;}
+.horz2{color:white;}
+.logo{margin-left: auto;margin-right: auto;   text-align: center;padding: 4px;justify-content: center;}
+body{display:flex;}
+.left{width:40%;}
+.right{width:60%; display: flex;flex-direction: column;background-image: url(pink.jpg);width:100%;justify-content: center;text-align: center;}
+.but{margin-left: auto;margin-right: auto;}
+h1{color:white;}
+p{color: white;font-size: x-small;text-align: center;}
+
+
+
+@media screen and (max-width:500px){
+    .left{width:100%;}
+    .right{visibility: hidden;}
+    input{width:200px;}
+    label{font-size: small;}
+    .flex,.black,.sign{font-size: small;}
+    p{font-size:x-small;}
+    
+    }
